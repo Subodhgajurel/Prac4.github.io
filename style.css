@@ -1,0 +1,144 @@
+html{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background:#e8e8e8;
+  font-family:verdana;
+}
+
+/** Card1Wrapper starts **/
+#card1wrapper{
+  margin-left: 10%;
+    margin-top: 5%;
+    float: left;
+}
+
+#card1wrapper > img{
+  height:250px;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+/** Card1Wrapper ends **/
+
+
+
+
+/** Card2Wrapper starts **/
+#card2wrapper{
+    margin-right: 10%;
+    margin-top: 5%;
+    float: right;
+}
+
+#card2wrapper > img{
+  height:250px;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+/** Card2Wrapper ends **/
+
+/** Contents start **/
+#cardcontent{
+  width:380px;
+  height:300px;
+  background:white;
+  padding:20px;
+  box-sizing:border-box;
+  display: grid;
+  vertical-align:middle
+}
+
+#cardcontent header{
+  font-size: 1.3em;
+  margin-bottom: 15px;
+}
+
+#cardcontent > p{
+  font-size: 0.8em;
+  line-height: 1.5;
+  color: #757575;
+  text-align: justify;
+}
+/** Contents end **/
+
+
+header p{
+    font-size: 0.8em;
+  line-height: 0.5;
+  color: #757575;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+  #card1wrapper{
+  margin: 10%;
+}
+
+#card2wrapper{
+    margin: 10%;
+}
+
+
+#card1wrapper > img{
+  height:250px;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+#card2wrapper > img{
+  height:250px;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+#cardcontent{
+  width:90%;
+  height:auto;
+  background:white;
+  padding:20px;
+  box-sizing:border-box;
+  display: grid;
+  vertical-align:middle
+}
+
+#card1wrapper > img{
+    height:90%;
+    width: 90%;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+#card2wrapper > img{
+    height:90%;
+    width: 90%;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+
+#cardcontent header{
+  font-size: 1.3em;
+  margin-bottom: 15px;
+}
+
+#cardcontent > p{
+  font-size: 0.8em;
+  line-height: 1.5;
+  color: #757575;
+  text-align: justify;
+}
