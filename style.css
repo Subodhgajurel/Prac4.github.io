@@ -65,6 +65,30 @@ body{
 }
 /** Contents end **/
 
+/** Contents start **/
+#cardcon{
+  width:380px;
+  height:300px;
+  background:white;
+  padding:20px;
+  box-sizing:border-box;
+  display: grid;
+  vertical-align:middle
+}
+
+#cardcon header{
+  font-size: 1.3em;
+  margin-bottom: 15px;
+}
+
+#cardcon > p{
+  font-size: 0.8em;
+  line-height: 1.5;
+  color: #757575;
+  text-align: justify;
+}
+/** Contents end **/
+
 
 header p{
     font-size: 0.8em;
